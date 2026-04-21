@@ -1,0 +1,3 @@
+if [is the password correct?] then return True
+
+how to find [is the password correct?]?

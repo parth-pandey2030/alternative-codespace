@@ -1,7 +1,8 @@
+import sys
 import socket
 
-HOST = '127.0.0.1' # change this later to the actual host, only use locally
-PORT = 65432
+HOST = '127.0.0.1' 
+PORT = sys.argv[1]
 
 # Create a TCP socket
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:

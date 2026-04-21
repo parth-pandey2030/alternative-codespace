@@ -89,7 +89,7 @@ def find_answer(length, chars, username):
 ### Displaying data remotely
 
 def client(port, info):
-    HOSTNAME = '127.0.0.1' # change this to the actual hostname
+    HOSTNAME = '127.0.0.1'
 
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         s.connect((HOSTNAME, port))
